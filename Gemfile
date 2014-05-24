@@ -48,3 +48,4 @@ gem 'heroku-deflater', group: [:production]
 gem 'rails_admin'
 gem 'devise'
 gem 'bootstrap-sass'
+gem 'jquery-turbolinks'
