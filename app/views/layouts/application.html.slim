@@ -16,5 +16,5 @@ html prefix="og: http://ogp.me/ns#" lang="en"
     = csrf_meta_tags
   body
     = yield
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true, 'data-turbolinks-eval' => false
     = yield :js
