@@ -17,4 +17,5 @@ html prefix="og: http://ogp.me/ns#" lang="en"
   body
     = yield
     = javascript_include_tag 'application', 'data-turbolinks-track' => true, 'data-turbolinks-eval' => false
-    = yield :js
+    script type="text/javascript"
+      = yield :js
